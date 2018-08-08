@@ -1,0 +1,7 @@
+
+Modify the Account class (section 3.3) so that the balance
+variable can never becomes negative. You'll need to change
+the primary constructor and the deposit and withdraw methods.
+If the balance threatens to become negative, set it to zero
+instead. Hint: Use the Math.max method to determine which is
+larger, the intended balance or zero
